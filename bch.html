@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Arcade Profile</title>
+  <style>
+    /* ฟอนต์เกม Arcade Retro */
+    @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+    body {
+      font-family: 'Press Start 2P', cursive;
+      background: radial-gradient(circle at center, #1a0023, #000);
+      margin: 0;
+      padding: 0;
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: #fff;
+    }
+
+    .profile-card {
+      background: linear-gradient(135deg, #ff00ff, #00ffff, #ffcc00);
+      border: 4px solid #fff;
+      border-radius: 20px;
+      padding: 25px;
+      text-align: center;
+      width: 380px;
+      box-shadow: 0 0 25px #ff00ff, 0 0 40px #00ffff;
+      animation: glow 2s infinite alternate;
+    }
+
+    .profile-card img {
+      width: 180px;
+      height: 180px;
+      border-radius: 50%;
+      border: 5px solid #fff;
+      box-shadow: 0 0 20px #ff00ff, 0 0 30px #00ffff;
+      object-fit: cover;
+      margin-bottom: 20px;
+    }
+
+    .profile-card h1 {
+      font-size: 16px;
+      color: #fff;
+      text-shadow: 0 0 5px #00ffff, 0 0 15px #ff00ff;
+      margin-bottom: 15px;
+    }
+
+    .profile-card p {
+      font-size: 10px;
+      margin: 8px 0;
+      text-shadow: 0 0 5px #ffcc00, 0 0 10px #ff00ff;
+    }
+
+    .profile-card p span {
+      color: #00ffff;
+    }
+
+    @keyframes glow {
+      from {
+        box-shadow: 0 0 15px #ff00ff, 0 0 25px #00ffff;
+      }
+      to {
+        box-shadow: 0 0 35px #ff00ff, 0 0 55px #00ffff;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="profile-card">
+    <img src="atchara.JPG" alt="Profile">
+    <h1>Kanchanaporn Thongwised</h1>
+    <p><span>E-mail:</span> bochabiwow@gmail.com</p>
+    <p><span>Department:</span> Computer</p>
+    <p><span>Faculty:</span> Weluwanwithaya</p>
+  </div>
+</body>
+</html>
