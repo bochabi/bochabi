@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Arcade Profile</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+    body {
+      font-family: 'Press Start 2P', cursive;
+      background: radial-gradient(circle at top, #1a0023, #000);
+      color: #fff;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+    }
+
+    .profile-card {
+      background: linear-gradient(135deg, #ff00ff, #00ffff, #ffcc00);
+      border: 4px solid #fff;
+      border-radius: 20px;
+      padding: 25px;
+      text-align: center;
+      width: 380px;
+      box-shadow: 0 0 25px #ff00ff, 0 0 40px #00ffff;
+      animation: pulse 2s infinite alternate;
+    }
+
+    .profile-card img {
+      width: 180px;
+      height: 180px;
+      border-radius: 50%;
+      border: 5px solid #fff;
+      box-shadow: 0 0 20px #ff00ff, 0 0 30px #00ffff;
+      object-fit: cover;
+      margin-bottom: 20px;
+    }
+
+    .profile-card h1 {
+      font-size: 16px;
+      color: #fff;
+      text-shadow: 0 0 5px #00ffff, 0 0 15px #ff00ff;
+      margin-bottom: 15px;
+    }
+
+    .profile-card p {
+      font-size: 12px;
+      color: #fff;
+      margin: 8px 0;
+      text-shadow: 0 0 5px #ffcc00;
+    }
+
+    .profile-card p span {
+      color: #00ffff;
+    }
+
+    @keyframes pulse {
+      from {
+        box-shadow: 0 0 15px #ff00ff, 0 0 25px #00ffff;
+      }
+      to {
+        box-shadow: 0 0 35px #ff00ff, 0 0 55px #00ffff;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="profile-card">
+    <img src="atchara.JPG" alt="Atchara">
+    <h1>Atchara Choompol</h1>
+    <p><span>E-mail:</span> atchara.ch@ksu.ac.th</p>
+    <p><span>Department:</span> Computer Engineering</p>
+    <p><span>Faculty:</span> Engineering and Industrial Technology</p>
+  </div>
+</body>
+</html>
